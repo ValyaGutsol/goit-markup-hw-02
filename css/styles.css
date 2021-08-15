@@ -1,8 +1,48 @@
 body {
-  background-color: ;
-  /*убрали точки*/
-  .list-style: style none;
+  background-color: №FFFFFF;
+  color: #757575;
 }
-/* # 757575 цвет основного текста*/
-/* 212121 вторичный цвет*/
+/*убрали точки*/
+.list {
+  list-style: none;
+  color: #757575;
+}
 /*#FFFFFF особености работы */
+/*  цвет основного текста*/
+/*акцент 2196f3*/
+/*основноц цвет фона FFFFFF*/
+/*вторичный цвет фона F5F4FA*/
+
+.Logo {
+  color: #2196f3;
+}
+.Logo:hover {
+  color: #2196f3;
+}
+
+/*sate nav*/
+.site-nav .link {
+  color: #2196f3;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: #000000;
+}
+
+/*Hero-*/
+.hero-title {
+  color: #ffffff;
+}
+/*Section*/
+.section-title {
+  color: 3212121;
+}
+
+/*Feature*/
+.feature-list,
+title {
+  color: #000000;
+}
+.feature-list .title {
+  color: #ffffff;
+}
