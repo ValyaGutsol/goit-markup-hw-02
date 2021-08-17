@@ -2,46 +2,59 @@
   --primary-text-color: rgba(0, 0, 0, 0.25);
   --title-text-color: #212121;
   --accent-color: #2196f3;
+  --hero-text-color: #ffffff;
+  --feature-list-title: #757575;
+  --primary-white-color: #ffffff;
+  --primary-secondari-color: #f5f4fa;
 }
 /*#FFFFFF особености работы */
 /*  цвет основного текста*/
 /*акцент 2196f3*/
-/*основноц цвет фона FFFFFF*/
 /*вторичный цвет фона F5F4FA*/
+/*  button type 188CE8*/
 
 body {
-  background-color: №FFFFFF;
-  color: #757575;
+  background-color: var(--hero-text-color);
+  color: var(--primary-bg-color);
 }
 /*убрали точки*/
 .list {
   list-style: none;
-  color: #757575;
+}
+ul {list-style:none
 }
 
-.Logo {
-  color: #2196f3;
+.logo {
+  color: var(--accent-color);
 }
-.Logo:hover {
-  color: #2196f3;
+.logo:hover {
+  color: var(--accent-color);
 }
 
 /*sate nav*/
 .site-nav .link {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
-  color: #000000;
+  color: var(--title-text-color);
+
 }
+.site-nav.link.current {
+   color: var(--accent-color)
+  }
+
 
 /*Hero-*/
-.hero-title {
-  color: #ffffff;
-}
+.hero-text-color {
+  color: var(--primary-white-color);
+  
+
 /*Section*/
-.section-title {
-  color: #212121;
+.hero-title {
+  color: var(--title-text-color);
+Font size: 44px
+
 }
 
 /*Feature*/
@@ -50,5 +63,25 @@ title {
   color: #000000;
 }
 .feature-list .title {
+  color: var(--feature-list-title);
+}
+
+/*Button*/
+.button {
+  color: var(--title-text-color);
+  background-color: var(--primary-white-color);
+  font-size: 16px; 
+  line height: 26px
+  
+}
+/*Кнопка первичная*/
+.button.primary {
+  background-color:var(--accent-color) ;
   color: #ffffff;
+  
+}
+/*Кнопка вторичная*/
+.button.secondari {
+  color: var(--accent-color);
+  background-color: var(--primary-secondari-color);
 }
