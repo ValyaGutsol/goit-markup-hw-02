@@ -30,7 +30,7 @@ ul {list-style:none
 }
 .logo:hover {
   color: var(--title-text-color);
-  font-size: 26px ;
+  font-size: 26px;
   line-height: 31px;
 }
 
@@ -38,7 +38,8 @@ ul {list-style:none
 .site-nav.link {
   color: var(--accent-color);
   font-size: 14px;
- line height: 16px;
+  line-height:16px ;
+ 
 }
  .site-nav .link:hover, 
  .site-nav .link:focus {
@@ -58,52 +59,60 @@ ul {list-style:none
 .hero-title{
   color: var(--hero-text-color);
  font-size: 44px;
- line height: 60px;
+ line-height: 60px;
 }
 
 .button-primary  {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  font size: 16px;
+  font-size: 16px ;
   line-height: 30px;
 }
    
 /*Section*/
 .section-title{
   color: var(--title-text-color);
-font-size: 14px ;
+font-size: 14px;
 line-height: 15px;
 }
-/*Feature*/
-}
-.feature-list .title {
+   /*Feature*/
+
+.feature-list.title {
   color: var(--feature-list-title);
 }
 .feature-list
 title {
   color: var(--title-text-color);
-  font size:  18 px;
-  line-height: 36 px;
+  font-size: 18px;
+  line-height: 36px;
 }
-.feature-list .list {
+.feature-list.list {
 color: var(--accent-color);
 }
 
 /*Button*/
 .button {
   color:  var(--title-text-color);
-  background color: var(--primary-white-color);
-  font-size: 16 px; 
-  line-heigh : 26px; 
+  background-color:var(--primary-white-color);
+  font-size: 16px; 
+  line-height:6px ;
+
 }
 /*Кнопка первичная*/
 .button.primary {
-  background color: var(--accent-color);
-  color: #ffffff;
+ background-color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 
 /*Кнопка вторичная*/
- .button secondari {
+ .button.secondari {
   color: var(--accent-color);
   background-color: var( --feature-list-title);
+}
+  /*Адресс*/
+.auth-nav {
+  color: var(--primary-white-color);
+ font-style: Regular ;        
+  font-size:14px ;
+line-height:24px ;
 }
