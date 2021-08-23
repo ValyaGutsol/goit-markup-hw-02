@@ -18,9 +18,11 @@
        text-decoration:none;
      }
     .ul {list-style:none;
-  
-    
    }
+      .link
+      .heder-pointer-list-link {
+      text-decoration:none ;
+      }
   .logo  {
       font-size: 26px;
       line-height: 1.19; 
@@ -38,7 +40,6 @@
        line-height: 1.17;
         letter-spacing: 0.03;
     }
-
     
     .header-link{
      font-weight: 500;
@@ -164,12 +165,13 @@
     }
       /*Cтиль для Портфолио*/
        .header-logo{
+         text-decoration:none;
          font-size: 26px;
          line-height: 1.9;
          align: left;
          vertical-align: top;
         letter-spacing: 0.03;
-        color: #000000;
+        color:var(--secondary-text-color);
       }
 
    .button-list{
@@ -187,6 +189,7 @@
       color:var(--secondary-title-color);
      }
       .about-title{
+         text-decoration:none;
        font-size: 18px;
        line-height: 1.71;
        vertical-align: top;
@@ -194,11 +197,14 @@
        color:#212121; 
     }
       .link-list-text{
+         text-decoration:none;
         weight : 400px;
        font-size: 16px;
        line-height: 1.60;
        vertical-align: top;
       letter-spacing: 0.03 ;
        color:#757575; 
-       text-decoration:none;
     }
+
+ 
+ 
