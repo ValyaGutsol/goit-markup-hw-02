@@ -1,210 +1,259 @@
-:root {--main-title-color: #212121;
---secondary-title-color: #ffffff;
---main-text-color:#757575;
---secondary-text-color: #000000;
---accent-color: #2196f3;
+:root {
+  --main-title-color: #ffffff;
+  --secondary-title-color: #212121;
+  --main-text-color: #757575;
+  --secondary-text-color: #000000;
+  --accent-color: #2196f3;
 }
 
-     /*Стиль для index.html*/
-  .body {font-family: roboto;  
-   background-color:#ffffff;
-   color:#757575;
-  }
-   /*убрали точки*/
-  .list {
-     list-style:none;
-     }
-   .link {
-       text-decoration:none;
-     }
-    .ul {list-style:none;
-   }
-      .link
-      .heder-pointer-list-link {
-      text-decoration:none ;
-      }
-  .logo  {
-      font-size: 26px;
-      line-height: 1.19; 
-      color: var(--accent-color); 
-    }
+/*Стиль для index.html*/
+.body {
+  font-family: 'Roboto', sans-serif;
+  color: #757575;
+}
 
-    .logo:hover {
-       font-size: 26px;
-       line-height:1.9;
-      color: var(--feature-list-title);
- }
-     .section title{
-        width:  700;
-       font-size: 36px;
-       line-height: 1.17;
-        letter-spacing: 0.03;
-    }
-    
-    .header-link{
-     font-weight: 500;
-     font-size: 14px;
-     line-height: 1.14; 
-     vertical-align: Top;
-      color: #212121;
-      cursor: pointer;
-      }
+/*убрали точки*/
+.list {
+  list-style: none;
+}
 
-      .heder-pointer-list{
-        cursor: pointer;
-      }
-   
-   .header-link:hover,
-   .header-link:focus{
-     color: var(--accent-color);
-   }
-    .heder-tel{
-     font-size: 14px;
-     line-height: 1.14;
-     vertical-align: Top;
-     letter-spacing: 0.02em;
-   }
+/* убрать подчеркивание*/
+.link {
+  text-decoration: none;
+}
 
-  /*----Герой----*/
-    .hero{
-     background-color: rgba(47, 48, 58, 1); 
-  }
-    .hero-title{
-     font-size: 44px;
-     line-height: 1.36;
-     vertical-align: To;
-     letter-spacing: 0.06em;
-  }
-  .btn{
-    font-size: 16px ;
-    line-height: 1.87;
-    vertical-align: center;
-    letter-spacing: 0.06em;
-    }
+/*-----HEADER------*/
 
-    .hero-button btn{
-      color:#ffffff;
- }
-   .btn:hover,.btn:focus{
-    background-color: #2196f3;
-  }
-   .hero-button{
-     color:#ffffff;;
-    }
-    .hero-title{
-      color: #ffffff
-    } 
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
 
-     /******--Преимущества работы--****/
-  .about-title{
-     font-size: 14px;
-     line-height: 1.14;
-     vertical-align: To;
-     letter-spacing: 0.03em;
-   }
-   .-about--item{
-      font-size: 14px;
-      line-height: 1.71;
-      letter-spacing: 0.03em;
-      color: var(---main-text-color);
-  }
-       /* ---  Примеры работ---*/
-       /*---Команда работников---*/
+.header-accent {
+  color: var(--secondary-text-color);
+}
 
-   .gallery-about-title { 
-    font-size: 36px;
-    line-height: 42px;
-    line-height: 1.17%;
-    vertical-align : top;
-    letter-spacing : 0.03;
-     }
-   .about-pre-title {
-     color: var(--main-title-color);
-     font-size: 16px; 
-     line-height: 19px; 
-     line-height: 1.18; 
-      vertical-align: Top; 
-      letter-spacing: 3%; 
-   }
-   .masters-item-text {
-     font-weight: 400;
-     contain: 16px;
-     line-height: 1.18;
-    line-height : 0.01;
-     vertical-align : тop;
-     letter-spacing : 0,03em;
-      color: var(--main-text-color);
-   }
-     .masters-pre-title{
-      color: var(--secondary-text-color)
-     }
+.header-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
 
-  /*Адресс*/
-   .contacts {
-   background-color:#2F303A ;
- }
+.header-link:hover,
+.header-link:focus {
+  color: var(--accent-color);
+}
 
-  .logo-WebStudio{
-       font-size: 26px;
-       line-height: 1.19;
-       letter-spacing: 0.03em; ;
-       color: var(--accent-color)
-    }
-    
-    .contacts {
-       font-size: 14px;
-       line-height: 1.71;
-       vertical-align: Top;
-       letter-spacing: 30.03;
-       color:#ffffff ;
-       font-style:normal ;
-    }
+.header-mail,
+.header-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
 
-    .contacts-link{
-      color:var(--secondary-title-color) ;
-    }
-      /*Cтиль для Портфолио*/
-       .header-logo{
-         text-decoration:none;
-         font-size: 26px;
-         line-height: 1.9;
-         align: left;
-         vertical-align: top;
-        letter-spacing: 0.03;
-        color:var(--secondary-text-color);
-      }
+.header-mail:hover,
+.header-mail:focus {
+  color: var(--accent-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+  color: var(--accent-color);
+}
 
-   .button-list{
-     weight: 500px;
-     color:#000000 ;
-     font-size: 16px;
-     line-height: 1.39;
-     vertical-align: Top;
-     letter-spacing: 0.03;
-     background-color:#F5F4FA ;
-     }
+/*----Герой----*/
+.hero {
+  background-color: #2f303a;
+}
 
-     .button-iten-list{
-     background-color:var(--accent-color);
-      color:var(--secondary-title-color);
-     }
-      .about-title{
-         text-decoration:none;
-       font-size: 18px;
-       line-height: 1.71;
-       vertical-align: top;
-       letter-spacing: 0.06 ;
-       color:#212121; 
-    }
-      .link-list-text{
-         text-decoration:none;
-        weight : 400px;
-       font-size: 16px;
-       line-height: 1.60;
-       vertical-align: top;
-      letter-spacing: 0.03 ;
-       color:#757575; 
-    }
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-title-color);
+}
 
- 
- 
+.hero-button {
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  vertical-align: center;
+  letter-spacing: 0.06em;
+  color: var(--main-title-color);
+}
+
+/******--Преимущества работы--****/
+
+.about-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--secondary-title-color);
+}
+
+.about-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+/* ---  Примеры работ---*/
+
+.gallery-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--secondary-title-color);
+}
+
+/*---Команда работников---*/
+
+.masters {
+  background-color: #f5f4fa;
+}
+.masters-title {
+  font-weight: 700;
+  font: size 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0, 03em;
+  color: var(--secondary-title-color);
+}
+.masters-member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.masters-text {
+  font-size: 16px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/*---ПОДВАЛ---*/
+
+.footer {
+  background-color: #2f303a;
+}
+.footer-accent {
+  color: #ffffff;
+}
+.footer-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.footer-mail,
+.footer-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*Cтиль для Портфолио*/
+
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1,62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-title-color);
+}
+
+.portfolio-button-list:hover,
+.portfolio-button-list:focus {
+  color: #F5F4FA;
+  background-color: var(--accent-color);
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.62;
+text-align: center;
+letter-spacing: 0.03em;
+}
+
+.card-title{
+font-size: 18px;
+line-height: 2.0px;
+letter-spacing: 0.06em;
+color: var(--secondary-title-color);
+}
+
+.card-text{
+font-size: 16px;
+line-height:1.87;
+letter-spacing: 0.03em;
+color: #757575;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.link-list-text {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.6;
+  vertical-align: top;
+  letter-spacing: 0.03;
+  color: #757575;
+}
+
+/*.header-logo {
+  text-decoration: none;
+  font-size: 26px;
+  line-height: 1.9;
+  align-items: left;
+  vertical-align: top;
+  letter-spacing: 0.03;
+  color: var(--secondary-text-color);
+}
