@@ -1,7 +1,7 @@
 /*Стиль для index.html*/
 body {
   font-family: 'roboto', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   color: #757575;
 }
 
@@ -132,7 +132,7 @@ body {
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  color: var(--secondary-title-color) #000;
+  color: var(--secondary-text-color);
 }
 .masters {
   background-color: #f5f4fa;
